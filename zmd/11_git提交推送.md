@@ -7,4 +7,9 @@
 
 - 阶段：本地提交
 - 分支：`main`
-- 提交：`279ef70 Initial story video tool`
+- 提交：`7e5e7e4 Initial story video tool`
+
+- 阶段：远程推送
+- 远程：`git@github.com:Zc214855/image_add_voice.git`
+- 分支：`main`
+- 结果：已推送并设置 upstream
