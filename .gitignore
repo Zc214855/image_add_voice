@@ -1,6 +1,3 @@
-# Rendered videos are large artifacts; regenerate them locally.
-output/
-
 # Runtime/transcription caches.
 story_video_tool/.cache/
 

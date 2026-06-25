@@ -13,3 +13,8 @@
 - 远程：`git@github.com:Zc214855/image_add_voice.git`
 - 分支：`main`
 - 结果：已推送并设置 upstream
+
+- 阶段：推送报错排查
+- 现象：用户将 `output/` 加入版本控制后，本地 `main` 超前远程 1 个提交
+- 原因：`output/妈妈买绿豆.mp4` 为 259225158 字节，超过 GitHub 普通 Git 单文件 100MB 限制
+- 处理策略：使用 Git LFS 跟踪 `output/*.mp4`，避免普通 Git 对象包含大视频
