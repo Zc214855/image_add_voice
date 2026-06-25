@@ -1,0 +1,20 @@
+# Rendered videos are large artifacts; regenerate them locally.
+output/
+
+# Runtime/transcription caches.
+story_video_tool/.cache/
+
+# Python generated files.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local virtual environments.
+.venv/
+venv/
+env/
+
+# Local logs and temporary files.
+*.log
+*.tmp
+*.bak
